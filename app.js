@@ -1,9 +1,4 @@
-//init modules
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+import{ createError, express, path, cookieParser, logger } from './init'
 
 //router setup
 var indexRouter = require('./routes/index');
